@@ -1,0 +1,6 @@
+Develop a java program using multithreading in which each thread reads the data from a text file and display the data of eachfile on Console alternatively such that one line from first inputfile is printed and then one line from another input file isprinted and so on.
+Detailed Description:
+You are required to develop a java program containing two threadsthat reads two files simultaneously.
+In a program, first thread reads data from file“Personal_Record.txt” and second thread reads the datafrom file “Academic_Record.txt”.
+When one thread reads a line from one file then it shouldallow another thread to read a line from another file.
+After reading data from each file, program must write theoutput on console (Output screen) such that one line from firstinput file is printed and then one line from another input file isprinted and so on.
